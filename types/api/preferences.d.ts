@@ -5,9 +5,9 @@ type LegacyThemeKey = 'default' | 'organization' | 'mattermostDark' | 'windows10
 
 type LegacyThemeType = 'Mattermost' | 'Organization' | 'Mattermost Dark' | 'Windows Dark';
 
-type ThemeKey = 'denim' | 'sapphire' | 'quartz' | 'indigo' | 'onyx' | 'custom';
+type ThemeKey = 'parolla' |'parollaDark' | 'denim' | 'sapphire' | 'quartz' | 'indigo' | 'onyx' | 'custom';
 
-type ThemeType = 'Denim' | 'Sapphire' | 'Quartz' | 'Indigo' | 'Onyx' | 'custom';
+type ThemeType = 'Parolla' |  'ParollaDark' | 'Denim' | 'Sapphire' | 'Quartz' | 'Indigo' | 'Onyx' | 'custom';
 
 type Theme = {
     type?: ThemeType | LegacyThemeType;

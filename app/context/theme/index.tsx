@@ -25,9 +25,9 @@ type WithThemeProps = {
 
 export function getDefaultThemeByAppearance(): Theme {
     if (Appearance.getColorScheme() === 'dark') {
-        return Preferences.THEMES.onyx;
+        return Preferences.THEMES.parollaDark;
     }
-    return Preferences.THEMES.denim;
+    return Preferences.THEMES.parolla;
 }
 
 export const ThemeContext = createContext(getDefaultThemeByAppearance());
